@@ -4,3 +4,12 @@
 [submodule "bundle/vim-latex-live-preview"]
 	path = bundle/vim-latex-live-preview
 	url = https://github.com/xuhdev/vim-latex-live-preview.git
+[submodule "fzf.vim"]
+	path = fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "fzf"]
+	path = fzf
+	url = https://github.com/junegunn/fzf
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = https://github.com/junegunn/fzf.git
