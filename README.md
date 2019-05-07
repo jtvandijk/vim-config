@@ -13,3 +13,8 @@
 	cd ~/.vim
 	git submodule init
 	git submodule update
+
+# Remarks
+
+1. Using pathogan.vim for package management.
+
