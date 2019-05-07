@@ -1,7 +1,10 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+execute pathogen#infect()
 
-command! Status echo 'Yes'
-
+"general"
 set number
 syntax on
+filetype plugin indent on
+
+"latex live-preview"
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = 'open -a Preview'
