@@ -1,9 +1,9 @@
-# Installation:
+# Installation
 
 	cd ~
 	git clone git://github.com/jtvandijk/vim-config.git ~/.vim
 
-# Create symlinks:
+# Create symlinks
 
 	ln -s ~/.vim/vimrc ~/.vimrc
 	ln -s ~/.vim/gvimrc ~/.gvimrc
@@ -16,5 +16,5 @@
 
 # Remarks
 
-1. Using pathogan.vim for package management.
+Uses pathogan.vim for package management.
 
